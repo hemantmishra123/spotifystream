@@ -1,4 +1,5 @@
 #This is the Project for the json data to the tabular data conevrsion.
+
 create an virtual environment for your project so this will create an Isolated Python Environment for The python Project. run command for creating a virtual env and isolated environment by this "python -m venv env" this will create a virtual environment name with env in windows and then activate the Virtualenv with command 
 "env\scripts\activate" in windows 
 First you need to setup the required package for the project to run sucessfully and run command "pip install -r requirements.txt" for installing all packages sucessfully"
