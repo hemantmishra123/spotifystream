@@ -17,9 +17,13 @@ def upload_file(request):
     if request.method == 'POST' and request.FILES['myfile']:
         myfile = request.FILES['myfile']
         handle_uploaded_file(myfile)
-        FileRead(myfile)
+        df=FileRead(myfile)
+        context={}
+        mylist = zip(df['Key'], df['Value'])
+        
+        context= {'mylist':mylist}
         if(Counter==0):
-            return HttpResponse("File is uploaded succesfully")
+            return render(request,'App_auth/demo.html',context)
         
         else:
             return HttpResponse("Please Upload a Valid Json File.")
@@ -58,10 +62,7 @@ def FileRead(f):
         basicConfig(filename='logfile.log',level=DEBUG,filemode='w') 
         debug("File is uploaded succesfully.")
         df = pd.DataFrame(data_tuples, columns=['Key','Value'])
-        print(df)
-        print(stack,"showing all Locations of dict Data ")
-        for i in stack:
-            print(i)
+        return df
 
     except ValueError as err:
         basicConfig(filename='logfile.log',level=DEBUG,filemode='w') 

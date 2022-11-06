@@ -1,2 +1,153 @@
 DEBUG:root:File is uploaded succesfully.
-DEBUG:asyncio:Using proactor: IocpProactor
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:root:File is uploaded succesfully.
+WARNING:django.request:Not Found: /accounts/upload_file/css/bootstrap.min.css
+WARNING:django.request:Not Found: /accounts/upload_file/js/bootstrap.min.js
