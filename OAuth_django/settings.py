@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'App_auth.apps.AppAuthConfig',
-    'social_django'
+    'social_django',
+    'rest_framework',
+    
 ]
 
 MIDDLEWARE = [
@@ -76,6 +78,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'OAuth_django.wsgi.application'
 
+#Custome AuthentiCation Backend for The User.
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'App_auth.backends.UserBackend',
+]
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases

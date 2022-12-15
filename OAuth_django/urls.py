@@ -17,12 +17,23 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from App_auth import views
+from rest_framework.routers import DefaultRouter 
+from rest_framework_simplejwt.views import TokenObtainPairView,TokenRefreshView,TokenVerifyView
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('accounts/', include('App_auth.urls')),
-    # OAuth Path Setup
+    path('home/', include('App_auth.urls')),
+    path('',views.home,name='home'),
+    path('login-signup/', views.login_signup, name='login-signup'),
+
     path('oauth/', include('social_django.urls', namespace='social')),
+    path('uber/',views.Uber,name="uber"),
+    path('gettoken/',TokenObtainPairView.as_view(),name= 'Token_refresh'),
+    path('refreshtoken/',TokenRefreshView.as_view(),name= 'Token_refresh'),
+    
+
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS)

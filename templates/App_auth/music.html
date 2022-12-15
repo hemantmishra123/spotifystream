@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>  StreamOfLove..!</title>
+    <style>
+        .music{
+             width:300px;
+             height: 150px;
+             position: absolute;
+             display: inline-flex;
+             align-items: center;
+             justify-content: space-between;           
+         }
+   .lg-nav{
+      background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+  
+/* CSS */
+.button-45 {
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #D33A2C;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.button-45:active,
+.button-45:hover,
+.button-45:focus {
+  outline: 0;
+}
+
+
+.button-45:active {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.button-45:hover {
+  background-color: #FFE3E3;
+  border-color: #FAA4A4;
+}
+
+.button-45:active:hover,
+.button-45:focus:hover,
+.button-45:focus {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+/* CSS */
+   #hideMe {
+    -moz-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+   .gg-play-button {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1.7));
+    width: 22px;
+    height: 29px;
+    color:white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 1px;
+  margin-left: 58px;
+  font-size: 17px;
+ justify-content: center;
+}
+.gg-play-button::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 0;
+    height: 10px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 6px solid;
+    top: 6px;
+    left: 9px
+}
+
+         .Images{
+            position: relative;
+            margin-left: 72px;
+         }
+         .tagimage{
+            position: relative;
+         }
+
+         .slider{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+         }
+
+         .arrow {
+            border: solid #00cbff;
+            border-width: 0 4px 4px 0;
+            display: inline-block;
+            padding: 6px;
+            margin-left: 6px;
+            margin-right: 6px;
+            }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            
+            }
+
+            .left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+      }
+
+      @media only screen and (max-width: 600px) {
+         body {
+            background-color: lightblue;
+            }
+          }
+         .music .bar {
+            width:8px;
+            border-radius: 10px;
+            background: white;
+            animation: loader 1.5s
+            ease-in-out infinite;
+         }
+         @keyframes loader{
+            0%, 100% {
+                  height:2px;
+            }
+
+            50% {
+                height: 80px;
+            }
+         }
+
+         .music .bar:nth-child(1){
+            background: red;
+            animation-delay: 1s;
+         }
+         .music .bar:nth-child(2){
+            background-color: crimson;
+            animation-delay: -8s;
+         }
+         .music .bar:nth-child(3){
+            background: red;
+            animation-delay: 2s;
+         }
+
+         .music .bar:nth-child(4)
+         {
+            background:  deeppink;
+            animation-delay: -6s;  
+         }
+         .music .bar:nth-child(5)
+         {
+            background: red;
+            animation-delay: -4s;  
+         }
+
+         .music .bar:nth-child(6)
+         {
+            background: goldenrod;
+            animation-delay: -2s;  
+         }
+         .music .bar:nth-child(7)
+         {
+            background: deeppink;
+            animation-delay: -2s;  
+         }
+
+         .music .bar:nth-child(8)
+         {
+            background: red;
+            animation-delay: -4s;  
+         }
+         .music .bar:nth-child(9)
+         {
+            background: orange;
+            animation-delay: -6s;  
+         }
+         .music .bar:nth-child(10)
+         {
+            background: red;
+            animation-delay: 1s;  
+         }
+         .music .bar:nth-child(11)
+         {
+            background: red;
+            animation-delay: -6s;  
+         }
+        
+         .music .bar:nth-child(12)
+         {
+            background: red;
+            animation-delay: 1s;  
+         }
+
+        .body{
+            background-color: black;
+         }
+
+        .tabular{
+            color:green;
+        }
+        .divide{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: black;
+            margin-top: -8px;
+        }
+        .table{
+            color: crimson;
+            }
+        
+
+    .parent{
+              display: flex;
+              flex-direction: column;
+              background-color: transparent;
+            }
+</style>
+  </head>
+  <script>
+   var music = JSON.parse("{{music|escapejs}}")
+   var instance = "{{music|escapejs}}"
+   var counter=0;
+   console.log(music)
+   console.log(instance)
+
+   function getSong()
+   {
+      console.log("Function Get Called"); 
+      var node = document.getElementById("currentsong").href;
+      console.log(node);
+       node = node.split("/")
+      var song_id = node[node.length-2]
+      var song_ids;
+      song_ids= song_id
+      console.log(song_ids)
+      song_id = parseInt(song_id);
+      song_id+=1;
+      console.log(song_id)
+      var song_data =music[song_id];
+      console.log(song_data);
+      let image=song_data['song_img']
+      image = image.split("/")
+      image = image[image.length-1]
+      var str1= "https://i.scdn.co/image/"
+      image = str1.concat('',image)
+      document.getElementById("docimage").src=image
+      var img= document.getElementById("imagecluster").src=image;
+      str1= "http://127.0.0.1:8080/accounts/prevsong/"
+      image = str1.concat('',song_ids)
+      console.log(document.getElementById("imagecluster").href=image);
+      var audio = song_data['song_file']
+      audio = audio.split("/")
+      audio = audio[audio.length-1]
+      str1 = "https://p.scdn.co/mp3-preview/";
+      audio = str1.concat('',audio);
+      console.log(audio);
+      audio =  document.getElementById("audio").src;
+      console.log(audio);
+      
+   }
+   </script>
+   <script>
+      function Image(){
+           documnet.getElementById('')
+      }
+   </script>
+  <body class ="body">
+    <nav class="lg-nav">
+        <div class="navbar navbar-expand-md navbar-primary bg-lg-nav">
+            <h1><a href="" class="navbar-brand">
+            <strong style="color:white">spotifyStream</strong></a></h1>
+            <div class="collapse navbar-collapse">
+                {% if request.user.is_active %}
+                <div class="btn-group mt-2 mx-1">
+                    
+                    <a type="button" href=" " class="btn btn-outline-light">My Space</a>
+                    <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="">Music Space</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="">Inspire.</a>
+                        </div>
+                </div>
+                {% endif %}
+                
+                <div class="topnav">
+                <span class='input-group-btn'>
+                  <input type="text" placeholder="Arijit Singh..">
+
+                </span>
+               </div>
+               <button type="submit" style="border-radius: 5px;  margin-top: 8px; margin-left: 1px;" class="btn btn-primary">Search</button>
+               
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbar">
+            {% if  request.user.is_active %} 
+            <div>
+            <a href="" class="btn btn-light mt-2 mx-2"> Sign Out<i class="fa fa-sign-out" aria-hidden="true"></i></a>
+            {% else %}
+            <a href = "{% url 'App_auth:login' %}" class="btn btn-light mt-2 mx-2"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a>
+            <a href =  "{% url 'App_auth:register' %}"  class="btn btn-light mt-2 mx-2"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a>
+            {% endif %}
+            </div>
+        </div>
+
+    </nav>
+
+    <div class ="divide">
+      <!--div class ="content">
+         <button onclick = "getSong()" class="button-45">get</button>
+     </div>-->
+
+    <div class="music" >
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+        <div class ="bar"></div>
+    </div>
+    <div>
+   {% if data %}  
+      <div class ="parent">
+        <div class ="Images">
+         <div class ="tagimage">
+            <div class="songname">
+            <p>{{data.name}}</p>
+            </div>  
+           <a id ="currentsong"  href="{% url 'App_auth:prevsong' data.id %}"> <i style="color:white" class="arrow left"></i></a><img id ="imagecluster" src= "{{data.song_img}}" class = "img-responsive" heigh
+           t="135" width ="135" </img><a href="{% url 'App_auth:nextsong' data.id %}"> <i style="color:white; cursor:pointer;" class="arrow right"></i></a>
+         </div>
+        </div>
+        <div class ="Audio">   
+            <audio  controls =" " name="media" style="width:345x;height:30px"><source id="audio" src="{{data.song_file}}"</audio>
+        </div>
+        {% endif %}
+        </div>
+
+    </div>
+    </div>
+    </body>
+    <div class  ="myclass lg-nav">
+      <h3 style ="color:white">Spotify Data Extract..</h3>
+      <div class="slider">
+
+       {% for song in songs %}
+         <div class="Image2">
+           <a  href="{% url 'App_auth:playsong' song.id %}" > <i class="gg-play-button"></i><button onclick="shift()"></button></a><img id ="" src= "{{song.song_img}}" class = "img-responsive" height="135" width ="135" </img> </a>
+            </div>
+       {% endfor %}
+          
+
+        </div>
+       </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
