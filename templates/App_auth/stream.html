@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>  StreamOfLove..!</title>
+    <style>
+        .navcolor{
+            background-color: #233329;
+        }
+        .signup{
+             background-color: white;
+             color:black;
+             font-weight: 500;
+        }
+        .bg-nav{
+            background-color: black;
+        }
+        .main-left{
+     color:white;
+
+        }
+        .search{
+            display: flex;
+            justify-content: center;
+        }
+        .chat-section{
+          background-color: white;
+          height:425px;
+        }
+        .header{
+          background-color: aqua;
+          height:2px;
+        }
+
+
+    </style>
+</head>
+<body class = "bg-nav">
+    <nav class="navbar navbar-expand-lg navbar-light navcolor">
+        <a style="color:white; font-weight: 600;" class="navbar-brand" href="#">FiLter.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    
+                    <div class="dropdown-divider"></div>
+                    
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                </ul>
+                <button onclick ="postdata()" type="button" class="btn signup">Sign Up</button>
+        </div>
+      </nav>
+      <div class ="main">
+        <div  class ="main-left">
+            <div class = "left-part1">
+                <div class = "search">
+                    <form action ="{% url 'App_auth:filter' %}" class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" name ="search" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    </div>
+        
+                <div class = "part1">
+                 <div class ="content">
+                     <div class ="header">
+                      <p>Chat with your Friends on Filter</p>
+                     </div>
+                       <div class ="chat-section">
+                        
+                       </div>
+                 </div>
+                 <div class ="content-right">
+                   {% for item in user %}
+                   <div class ="profile">
+                    <p>{{item.username}}
+  
+                      
+                    </p>
+                   </div>
+                   {% endfor %}
+                 </div>
+
+
+                </div>
+               
+            </div>
+
+
+        </div>
+        <div class = "main-right">
+
+        </div>
+      </div>
+</body>
+</html>

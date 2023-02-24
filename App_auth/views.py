@@ -13,7 +13,6 @@ from .serializers import *
 Counter=0
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
-from App_auth.backends import UserBackend 
 # Create your views here. 
 
 def home(request):
@@ -39,6 +38,20 @@ def home(request):
     context= {'songs':songs ,'data':instance,'music':li}
     return render(request,'App_auth/music.html',context)
 
+
+def BetterUi(request):
+    user = User.objects.all()
+    context ={'user':user}
+    return render(request,'App_auth/stream.html',context)
+
+
+def Template(request):
+    search = request.GET.get('search')
+    print(search)
+
+    return render(request,'App_auth/stream.html')
+
+
 def Register(request):
     if request.method == 'POST':
         username = request.POST.get('username')
@@ -61,8 +74,6 @@ def Login(request):
         password = request.POST.get('password')
         print(username)
         print(password)
-        instance = UserBackend()
-        print(instance.authenticate(request,username=username,password=password))
         user = User.objects.filter(username = username).first()
         if user:
             if password == user.password:
@@ -100,7 +111,6 @@ def prevsong(request,song_id):
 
 def Uber(request):
     return render(request,'App_auth/uber.html')
-
 
 
 def nextsong(request,song_id):

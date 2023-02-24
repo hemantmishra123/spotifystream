@@ -25,6 +25,7 @@ from rest_framework_simplejwt.views import TokenObtainPairView,TokenRefreshView,
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', include('App_auth.urls')),
+    path('betterui/',views.BetterUi,name='betterui'),
     path('',views.home,name='home'),
     path('login-signup/', views.login_signup, name='login-signup'),
 
@@ -33,7 +34,6 @@ urlpatterns = [
     path('gettoken/',TokenObtainPairView.as_view(),name= 'Token_refresh'),
     path('refreshtoken/',TokenRefreshView.as_view(),name= 'Token_refresh'),
     
-
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS)

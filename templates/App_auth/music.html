@@ -392,6 +392,7 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
         <div class ="bar"></div>
     </div>
     <div>
+
    {% if data %}  
       <div class ="parent">
         <div class ="Images">
@@ -420,9 +421,12 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
          <div class="Image2">
            <a  href="{% url 'App_auth:playsong' song.id %}" > <i class="gg-play-button"></i><button onclick="shift()"></button></a><img id ="" src= "{{song.song_img}}" class = "img-responsive" height="135" width ="135" </img> </a>
             </div>
-       {% endfor %}
-          
 
+       {% endfor %}
+       <div class ="chat-bots">
+           <h1>Bots section </h1>
+       </div>
+         
         </div>
        </div>
     <!-- Optional JavaScript -->

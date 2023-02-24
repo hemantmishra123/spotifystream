@@ -16,5 +16,6 @@ urlpatterns = [
     path('uber/',views.Uber,name="uber"),
     path('login/',views.Login,name='login'),
     path('register/',views.Register,name='register'),
+    path('filter/',views.Template,name ='filter')
 ]
 
